@@ -1,0 +1,113 @@
+@media screen and (max-width:1199px) {
+    #laptop-slide {
+        right: 118px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .home {
+        .home-text {
+            h2 {
+                font-size: 35px !important;
+                font-weight: 500 !important;
+            }
+
+            h4 {
+                font-size: 22px !important;
+                font-weight: 400 !important;
+            }
+        }
+
+        .page-2 {
+            .home-text {
+                h3 {
+                    font-weight: 400 !important;
+                }
+
+                h2 {
+                    font-weight: 2rem !important;
+                }
+            }
+        }
+
+        .home-social {
+            display: none;
+        }
+    }
+
+    .about {
+        .abt-top-left {
+            h2 {
+                font-size: 2.5rem !important;
+            }
+        }
+    }
+
+    .learn-btn {
+        padding: 8px 25px !important;
+    }
+
+
+
+}
+
+/***Media Screen 768px***/
+
+@media screen and (max-width:768px) {
+    .section-title{
+        h1,h2{
+            font-size: 2.5rem !important;
+        }
+    }
+    .content-left{
+        h2{
+            font-size: 2rem !important
+        }
+    }
+    .work-left-content{
+        h1{
+            font-size: 2rem !important;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .home-text{
+        h2{
+            font-size:1.5rem !important;
+            padding:0 0 20px 0 !important;
+        }
+        p{
+            width: 450px !important;
+        }
+        h3,h4{
+            font-weight: 400 !important;
+        }
+    }
+    .about {
+        .abt-top-left {
+            h2 {
+                font-size: 2rem !important;
+            }
+        }
+    }
+
+    .counter-up {
+        width: 350px !important;
+    }
+    
+}
+@media screen and (max-width:520px){
+    .home-text{
+        h2{
+            font-size:1.5rem !important;
+        }
+        h3{
+            font-size: 25px !important;
+        }
+        p{
+            width: 300px !important;
+        }
+
+    }
+}
